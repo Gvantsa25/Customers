@@ -1,0 +1,7 @@
+<section *ngFor="let customer of customers">
+  <ul>
+    <li>
+      <a (click)="customerDetail(customer)">{{customer.username}}</a>
+    </li>
+  </ul>
+</section>

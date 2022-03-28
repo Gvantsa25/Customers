@@ -1,0 +1,27 @@
+section{
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+  padding: 25px 0px;
+  border: solid 3px yellowgreen;
+  
+  font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+  div{
+    font-size: 25px;
+    color: rgb(15, 15, 31);
+    margin: 17px 0px;
+  }
+  button{
+    outline: none;
+    padding: 10px 17px;
+    background-color: yellowgreen;
+    border: none;
+    a{
+      font-size: 25px;
+      text-decoration: none;
+      color: rgb(15, 15, 31);
+    }
+  }
+}

@@ -1,0 +1,25 @@
+section{
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  ul{
+    list-style: none;
+    li{
+      margin: 30px;
+      padding: 20px 15px;
+      border: solid 3px pink;
+      color: rgb(73, 73, 138);
+      font-size: 30px;
+      font-weight: bold;
+      font-family:'Times New Roman', Times, serif;
+      border-radius: 5px;
+      a{
+        text-decoration: none;
+        cursor: pointer;
+        &:hover{
+          color: rgb(145, 145, 202);
+        }
+      }
+    }
+  }
+}
